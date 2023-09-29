@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nfRXPTNuRPYMvkiIVLA1IwVRoDVa3crfXkkN62+GGxiczhz1UiHxQQCLUZcHbbjSEINjI4GWBqaGw3ASmoAuBA==",
+  "dgSpecHash": "8lb0X59S/Iy9iSk0x5X+oh9YrY1lLLPnvrG5cE3/MoqCHn/fT6Q4I7Eet5V72Pprv1cM/GeUr8T3IfeShd1Ejg==",
   "success": true,
-  "projectFilePath": "/home/erfan/KNTU/Algorithms/csharp/Algorithms/Algorithms.csproj",
+  "projectFilePath": "/home/erfan/KNTU/Algorithms/code/dotnet/Algorithms/Algorithms.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

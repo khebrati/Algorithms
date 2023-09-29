@@ -302,6 +302,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Algorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Algorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Algorithms.dll": {}
+        }
       }
     }
   },
@@ -1300,10 +1310,16 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Algorithms/1.0.0": {
+      "type": "project",
+      "path": "../Algorithms/Algorithms.csproj",
+      "msbuildProject": "../Algorithms/Algorithms.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Algorithms >= 1.0.0",
       "Microsoft.CodeAnalysis.CSharp.Scripting >= 4.7.0",
       "Microsoft.CodeAnalysis.Common >= 4.7.0",
       "Microsoft.CodeAnalysis.Scripting.Common >= 4.7.0"
@@ -1315,11 +1331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/erfan/KNTU/Algorithms/csharp/csharp.csproj",
+      "projectUniqueName": "/home/erfan/KNTU/Algorithms/code/dotnet/Console/csharp.csproj",
       "projectName": "csharp",
-      "projectPath": "/home/erfan/KNTU/Algorithms/csharp/csharp.csproj",
+      "projectPath": "/home/erfan/KNTU/Algorithms/code/dotnet/Console/csharp.csproj",
       "packagesPath": "/home/erfan/.nuget/packages/",
-      "outputPath": "/home/erfan/KNTU/Algorithms/csharp/obj/",
+      "outputPath": "/home/erfan/KNTU/Algorithms/code/dotnet/Console/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/erfan/.nuget/NuGet/NuGet.Config"
@@ -1333,7 +1349,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/erfan/KNTU/Algorithms/code/dotnet/Algorithms/Algorithms.csproj": {
+              "projectPath": "/home/erfan/KNTU/Algorithms/code/dotnet/Algorithms/Algorithms.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

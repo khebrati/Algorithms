@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6jN+nobol4kvLnKZsVVtb5vaEGwcczs5eh5gBwh8qkwLi3jdi7R46yhjA5zuCtDwAwtkO4o4OkTGWg0Vb1qpqA==",
+  "dgSpecHash": "esQ7J8evv7KpBHrtAtpOZET3QlRP73j1qa2zbCIb+i+scVrFS3R76rj5HLZyq+VUwIdTrTL25WgjhrzMzIB8IQ==",
   "success": true,
-  "projectFilePath": "/home/erfan/KNTU/Algorithms/csharp/csharp.csproj",
+  "projectFilePath": "/home/erfan/KNTU/Algorithms/code/dotnet/Console/csharp.csproj",
   "expectedPackageFiles": [
     "/home/erfan/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
     "/home/erfan/.nuget/packages/microsoft.codeanalysis.common/4.7.0/microsoft.codeanalysis.common.4.7.0.nupkg.sha512",

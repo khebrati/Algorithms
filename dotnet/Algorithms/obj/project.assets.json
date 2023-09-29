@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/erfan/KNTU/Algorithms/csharp/Algorithms/Algorithms.csproj",
+      "projectUniqueName": "/home/erfan/KNTU/Algorithms/code/dotnet/Algorithms/Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "/home/erfan/KNTU/Algorithms/csharp/Algorithms/Algorithms.csproj",
+      "projectPath": "/home/erfan/KNTU/Algorithms/code/dotnet/Algorithms/Algorithms.csproj",
       "packagesPath": "/home/erfan/.nuget/packages/",
-      "outputPath": "/home/erfan/KNTU/Algorithms/csharp/Algorithms/obj/",
+      "outputPath": "/home/erfan/KNTU/Algorithms/code/dotnet/Algorithms/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/erfan/.nuget/NuGet/NuGet.Config"

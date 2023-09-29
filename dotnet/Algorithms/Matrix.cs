@@ -1,5 +1,5 @@
 ﻿namespace Algorithms;
-public class Matrix
+public static class Matrix
 {
     public static int[,] AddMatrix(int[,] matrix1,int[,] matrix2)
     {
@@ -30,5 +30,24 @@ public class Matrix
             Write("}");
         }
         Write("}");
+    }
+    public static int[,] MultiplyMatrix(int[,] matrixA,int[,] matrixB)
+    {
+        
+        int[,] resultMatrix = new int[matrixA.GetLength(0),matrixB.GetLength(1)];
+        int sum;
+        for(int rowA = 0;rowA < matrixA.GetLength(0); rowA++)
+        {
+            for(int colB = 0; colB < matrixB.GetLength(1); colB++)
+            {
+                sum = 0;
+                for(int colA_or_rowB = 0; colA_or_rowB < matrixB.GetLength(0);colA_or_rowB++)
+                {
+                    sum += matrixA[rowA,colA_or_rowB] + matrixB[colA_or_rowB,colB];
+                }
+                resultMatrix[rowA,colB] = sum;
+            }
+        }
+        return resultMatrix;
     }
 }
